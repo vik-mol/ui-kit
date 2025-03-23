@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/vik-mol/ui-kit/compare/@vik-mol/button@0.6.0...@vik-mol/button@0.7.0) (2025-03-23)
+
+
+### Features
+
+* **@vik-mol/button:** add repository ([b153e69](https://github.com/vik-mol/ui-kit/commit/b153e693a8c4218865983b71884d5af0b82efe86))
+
+
+
+
+
 # 0.6.0 (2025-03-23)
 
 

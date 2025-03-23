@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "lerna run build",
-    "version": "lerna version --conventional-commits --conventional-graduate --changelog-preset",
+    "version": "lerna version --yes",
     "publish": "dotenv -e .env -- lerna publish from-git --yes",
     "release": "lerna run build && npm run version && npm run publish",
     "storybook:build": "storybook build -o storybook-static",

@@ -1,0 +1,48 @@
+{
+  "name": "ui-kit",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "lerna run build",
+    "version": "lerna version --conventional-commits --conventional-graduate --changelog-preset",
+    "publish": "dotenv -e .env -- lerna publish from-git --yes",
+    "release": "lerna run build && npm run version && npm run publish",
+    "storybook:build": "storybook build -o storybook-static",
+    "storybook:dev": "storybook dev -p 6006"
+  },
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "workspaces": [
+    "packages/**/*"
+  ],
+  "devDependencies": {
+    "@chromatic-com/storybook": "^3.2.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@storybook/addon-essentials": "^8.6.8",
+    "@storybook/blocks": "^8.6.8",
+    "@storybook/react": "^8.6.8",
+    "@storybook/react-vite": "^8.6.8",
+    "@storybook/test": "^8.6.8",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "@vitest/browser": "^3.0.9",
+    "@vitest/coverage-v8": "^3.0.9",
+    "lerna": "^8.2.1",
+    "playwright": "^1.51.1",
+    "rimraf": "^6.0.1",
+    "rollup": "^4.36.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "sass": "^1.86.0",
+    "storybook": "^8.6.8",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.9"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}

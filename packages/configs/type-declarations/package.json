@@ -2,7 +2,7 @@
   "name": "@vik-mol/type-declarations",
   "version": "0.1.0",
   "description": "",
-  "main": "declaration.d.ts",
+  "types": "declaration.d.ts",
   "author": "",
   "license": "ISC",
   "repository": {

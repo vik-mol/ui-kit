@@ -1,6 +1,6 @@
 {
   "name": "@vik-mol/rollup-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "bin": {
     "rollup-builder": "create-rollup-config.js"

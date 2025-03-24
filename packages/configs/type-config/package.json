@@ -1,0 +1,15 @@
+{
+  "name": "@vik-mol/type-config",
+  "version": "0.0.0",
+  "description": "",
+  "main": "type-config.json",
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vik-mol/ui-kit"
+  },
+  "dependency": {
+    "@vik-mol/type-declarations": "*"
+  }
+}

@@ -1,3 +1,2 @@
-/** @format */
-
 export { default } from "./button";
+export * from './button.types'

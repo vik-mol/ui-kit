@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.12.0](https://github.com/vik-mol/ui-kit/compare/@vik-mol/button@0.11.0...@vik-mol/button@0.12.0) (2025-03-24)
+
+
+### Features
+
+* **button:** use sharet type declaration ([5945cdc](https://github.com/vik-mol/ui-kit/commit/5945cdc69d0ca32f56555c9e2c616d2025ceadc7))
+
+
+
+
+
 # [0.11.0](https://github.com/vik-mol/ui-kit/compare/@vik-mol/button@0.8.1...@vik-mol/button@0.11.0) (2025-03-24)
 
 

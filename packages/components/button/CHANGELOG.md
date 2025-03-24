@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.11.0](https://github.com/vik-mol/ui-kit/compare/@vik-mol/button@0.8.1...@vik-mol/button@0.11.0) (2025-03-24)
+
+
+### Features
+
+* **button:** add children props ([594c441](https://github.com/vik-mol/ui-kit/commit/594c441af8eb0029c5f75dbfd0bf1b92327564d7))
+
+
+
+
+
 # [0.10.0](https://github.com/vik-mol/ui-kit/compare/@vik-mol/button@0.8.1...@vik-mol/button@0.10.0) (2025-03-24)
 
 

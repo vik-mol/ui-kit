@@ -1,0 +1,15 @@
+{
+  "name": "@vik-mol/type-declarations",
+  "version": "0.0.0",
+  "description": "",
+  "main": "declaration.d.ts",
+  "scripts": {
+    "build": "rimraf dist && rollup --config"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vik-mol/ui-kit"
+  }
+}

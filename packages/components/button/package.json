@@ -13,5 +13,9 @@
     "react": "^18.0.0 || ^19.0.0",
     "react-dom": "^18.0.0 || ^19.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vik-mol/ui-kit"
+  },
   "gitHead": "a1ba8218caef0779f076469e731ba8a3f35c1e91"
 }

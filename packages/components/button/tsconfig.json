@@ -1,24 +1,7 @@
 {
+  "extends": "@vik-mol/type-config/type-config.json",
   "compilerOptions": {
-    "allowJs": true,
-    "noImplicitAny": true,
-    "strict": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "resolveJsonModule": true,
-    "moduleResolution": "node",
-    "jsx": "react-jsx",
-    "preserveConstEnums": true,
-    "removeComments": true,
-    "allowSyntheticDefaultImports": true,
-    "importHelpers": true,
-    "lib": ["dom", "esnext"],
-    "skipLibCheck": true,
-    "declaration": true,
-    "target": "es6",
-    "outDir": "dist",
-    "types": ["@vik-mol/type-declarations"]
+    "outDir": "./dist"
   },
   "include": ["src"],
-  "exclude": ["node_modules"]
 }

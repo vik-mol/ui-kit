@@ -1,3 +1,4 @@
+
 {
   "name": "@vik-mol/rollup-config",
   "version": "0.0.1",
@@ -11,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/vik-mol/ui-kit"
   },
-  "dependency": {
+  "dependencies": {
     "@vik-mol/type-config": "*"
   }
 }

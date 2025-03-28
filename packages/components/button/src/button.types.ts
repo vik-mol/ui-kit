@@ -1,7 +1,7 @@
-import { ReactNode } from "react";
+import { ReactNode } from 'react';
 
-interface ButtonProps{
-  children: ReactNode
+interface ButtonProps {
+  children: ReactNode;
 }
 
-export default ButtonProps
+export default ButtonProps;

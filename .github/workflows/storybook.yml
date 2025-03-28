@@ -1,4 +1,4 @@
-name: Deploy Storybook
+name: Build and Deploy
 
 on:
   push:
@@ -19,5 +19,9 @@ jobs:
       - name: Build Storybook
         run: npm run storybook:build
 
-      - name: Deploy to GitHub Pages
-        run: npx gh-pages -d storybook-static
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          token: ${{ secrets.GITHUB_TOKEN }}
+          folder: storybook-static

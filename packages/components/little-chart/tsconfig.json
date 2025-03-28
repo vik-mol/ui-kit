@@ -1,0 +1,7 @@
+{
+  "extends": "@vik-mol/type-config/type-config.json",
+  "compilerOptions": {
+    "outDir": "./dist"
+  },
+  "include": ["src"],
+}

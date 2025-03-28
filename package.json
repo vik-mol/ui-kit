@@ -9,7 +9,8 @@
     "publish": "dotenv -e .env -- lerna publish from-git --yes",
     "release": "lerna run build && npm run version && npm run publish",
     "storybook:build": "storybook build -o storybook-static",
-    "storybook:dev": "storybook dev -p 6006"
+    "storybook:dev": "storybook dev -p 6006",
+    "storybook:deploy": "gh-pages -d ui-kit/storybook-static"
   },
   "author": "",
   "license": "ISC",

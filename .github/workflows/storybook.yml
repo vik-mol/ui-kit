@@ -1,0 +1,30 @@
+name: Deploy Storybook
+
+on:
+  push:
+    branches: [gh-pages]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Storybook
+        run: |
+          cd ui-kit
+          npm install
+          npm run storybook:build
+
+      - name: Deploy to GitHub Pages
+        run: npx gh-pages -d ui-kit/storybook-static

@@ -20,4 +20,4 @@ jobs:
         run: npm run storybook:build
 
       - name: Deploy to GitHub Pages
-        run: npx gh-pages -d ui-kit/storybook-static
+        run: npx gh-pages -d storybook-static

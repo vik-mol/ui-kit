@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.13.0](https://github.com/vik-mol/ui-kit/compare/@vik-mol/button@0.12.1...@vik-mol/button@0.13.0) (2025-03-28)
+
+
+### Features
+
+* **button:** add CLI rollup-builder ([203a67d](https://github.com/vik-mol/ui-kit/commit/203a67dab930173c41b3c6243ed84895cee3e834))
+
+
+
+
+
 ## [0.12.1](https://github.com/vik-mol/ui-kit/compare/@vik-mol/button@0.12.0...@vik-mol/button@0.12.1) (2025-03-24)
 
 **Note:** Version bump only for package @vik-mol/button
